@@ -29,4 +29,4 @@ import requests
 
 fruityvice_repsonse = requests.get("https://fruityvice.com/api/fruit/kiwi")
 #fruityvice_normalized = json_normalize(fruityvice_repsonse.json())
-streamlit.text(fruityvice_normalized.json())
+streamlit.text(fruityvice_response.json())
