@@ -1,5 +1,5 @@
 import streamlit
-import pandas pd
+import pandas as pd
 
 
 streamlit.title('My Mom\'s New Healthy Diner')
